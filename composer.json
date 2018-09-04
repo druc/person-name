@@ -1,0 +1,37 @@
+{
+  "name": "druc/person-name",
+  "description": "Presents one's name in various formats",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/druc/person-name",
+  "keywords": [
+    "name",
+    "person",
+    "user"
+  ],
+  "authors": [
+    {
+      "name": "Constantin Druc",
+      "email": "druc@pinsmile.com",
+      "homepage": "https://cdruc.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Druc\\PersonName\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Druc\\PersonName\\Test\\": "tests"
+    }
+  }
+}
+
